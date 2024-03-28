@@ -157,9 +157,12 @@ img {
 
 .hero {
   background: #2e2f42;
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 188px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
